@@ -5,7 +5,10 @@ const exp=require("express")
 const app=exp();
 
 //assisigning port number
-app.listen(7200,()=>{console.log('server is running on 7200')})
+// app.listen(7200,()=>{console.log('server is running on 7200')})
+app.listen(process.env.PORT || 8080 ,()=>{
+    console.log('server started')
+})
 
 //import path module
 const path=require('path');
