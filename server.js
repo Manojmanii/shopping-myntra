@@ -15,4 +15,4 @@ const path=require('path');
 
 //connecting with angular app of dist floder
 
-app.use(exp.static(path.join(__dirname,'./dist/RREGULUS')));
+app.use(exp.static(path.join(__dirname,'./dist/RRegulus')));
