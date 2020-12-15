@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "RRegulus"
+    }
+  },
+  "defaultProject": "RRegulus",
+  "cli": {
+    "analytics": "19f9514f-c5ea-4029-9ad4-dca6e8ee3bcb"
+  }
 }
